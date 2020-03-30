@@ -23,12 +23,12 @@ public class FeatureManager : MonoBehaviour
     void LoadFeatures()
     {
         features = new List<Feature>();
-        features.Add(new Feature("Face", transform.Find("Face").GetComponent<SpriteRenderer>()));
-        features.Add(new Feature("Hair", transform.Find("Face").Find("Hair").GetComponent<SpriteRenderer>()));
-        features.Add(new Feature("Eyes", transform.Find("Face").Find("Eyes").GetComponent<SpriteRenderer>()));
-        features.Add(new Feature("Mouth", transform.Find("Face").Find("Mouth").GetComponent<SpriteRenderer>()));
-        features.Add(new Feature("Tops", transform.Find("Top").GetComponent<SpriteRenderer>()));
-        features.Add(new Feature("Bottoms", transform.Find("Bottom").GetComponent<SpriteRenderer>()));
+        features.Add(new Feature("Heads", transform.Find("Face").GetComponent<SpriteRenderer>()));
+        features.Add(new Feature("Hats", transform.Find("Face").Find("Hat").GetComponent<SpriteRenderer>()));
+        features.Add(new Feature("Faces", transform.Find("Face").Find("Eyes").GetComponent<SpriteRenderer>()));
+        features.Add(new Feature("Ears", transform.Find("Face").Find("Ears").GetComponent<SpriteRenderer>()));
+        features.Add(new Feature("Outfits", transform.Find("Outfit").GetComponent<SpriteRenderer>()));
+        features.Add(new Feature("Shoes", transform.Find("Shoe").GetComponent<SpriteRenderer>()));
 
 
         for (int i = 0; i < features.Count; i++)

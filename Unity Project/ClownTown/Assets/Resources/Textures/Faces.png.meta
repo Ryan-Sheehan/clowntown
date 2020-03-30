@@ -1,0 +1,563 @@
+fileFormatVersion: 2
+guid: 9a4d8b6dc31170249920c0e21c4c84f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5285785097126754818
+    second: Faces_0
+  - first:
+      213: 5219528537255451192
+    second: Faces_1
+  - first:
+      213: -2352396353401391747
+    second: Faces_2
+  - first:
+      213: 6236675656088661469
+    second: Faces_3
+  - first:
+      213: 3010951858511213517
+    second: Faces_4
+  - first:
+      213: -8891590945244770283
+    second: Faces_5
+  - first:
+      213: -8999417144695169524
+    second: Faces_6
+  - first:
+      213: 3360697119208892714
+    second: Faces_7
+  - first:
+      213: 1238325399474471081
+    second: Faces_8
+  - first:
+      213: -6889968230148230970
+    second: Faces_9
+  - first:
+      213: -1484705323956593315
+    second: Faces_10
+  - first:
+      213: -478054922161449255
+    second: Faces_11
+  - first:
+      213: 5755430995237285898
+    second: Faces_12
+  - first:
+      213: -7022587179109145125
+    second: Faces_13
+  - first:
+      213: 4737009841009751051
+    second: Faces_14
+  - first:
+      213: -2150320263628350387
+    second: Faces_15
+  - first:
+      213: -2205531410212600528
+    second: Faces_16
+  - first:
+      213: -5733005540929603233
+    second: Faces_17
+  - first:
+      213: 9190814179946814140
+    second: Faces_18
+  - first:
+      213: 8539454709898421426
+    second: Faces_19
+  - first:
+      213: 388325695829643731
+    second: Faces_20
+  - first:
+      213: 7072610082442802830
+    second: Faces_21
+  - first:
+      213: 3592886842153931431
+    second: Faces_22
+  - first:
+      213: 4575595625184122037
+    second: Faces_23
+  - first:
+      213: -8561962239914680989
+    second: Faces_24
+  - first:
+      213: 240548582983733799
+    second: Faces_25
+  - first:
+      213: 2078064056054086944
+    second: Faces_26
+  - first:
+      213: 502081670595932546
+    second: Faces_27
+  - first:
+      213: 5787724878010824570
+    second: Faces_28
+  - first:
+      213: 7525088576457538674
+    second: Faces_29
+  - first:
+      213: 1798592840317157841
+    second: Faces_30
+  - first:
+      213: -3343957337008492073
+    second: Faces_31
+  - first:
+      213: 5612859048394387560
+    second: Faces_32
+  - first:
+      213: -3655083867925746968
+    second: Faces_33
+  - first:
+      213: 1466030004215106612
+    second: Faces_34
+  - first:
+      213: 7028389675812736792
+    second: Faces_35
+  - first:
+      213: -5531523250121383222
+    second: Faces_36
+  - first:
+      213: 3924721483865330943
+    second: Faces_37
+  - first:
+      213: 9006832104126658816
+    second: Faces_38
+  - first:
+      213: 7650920958320234850
+    second: Faces_39
+  - first:
+      213: 97639857983031210
+    second: Faces_40
+  - first:
+      213: 7545793267367735418
+    second: Faces_41
+  - first:
+      213: -910405489721690861
+    second: Faces_42
+  - first:
+      213: 8198305200081259058
+    second: Faces_43
+  - first:
+      213: 814705560965607896
+    second: Faces_44
+  - first:
+      213: 7004704111937026578
+    second: Faces_45
+  - first:
+      213: -8198337727458255588
+    second: Faces_46
+  - first:
+      213: 8861784183731758014
+    second: Faces_47
+  - first:
+      213: 4046346470973013628
+    second: Faces_48
+  - first:
+      213: 314948483514016168
+    second: Faces_49
+  - first:
+      213: 7401646945782269775
+    second: Faces_50
+  - first:
+      213: -6657701431520052995
+    second: Faces_51
+  - first:
+      213: 7862701323313208685
+    second: Faces_52
+  - first:
+      213: 2704860387818140521
+    second: Faces_53
+  - first:
+      213: -1624547185707199615
+    second: Faces_54
+  - first:
+      213: 4037162448906327304
+    second: Faces_55
+  - first:
+      213: -6618110823791413365
+    second: Faces_56
+  - first:
+      213: 3171119938924645127
+    second: Faces_57
+  - first:
+      213: -33956963649764494
+    second: Faces_58
+  - first:
+      213: -5918968826849077551
+    second: Faces_59
+  - first:
+      213: 6254777015053031053
+    second: Faces_60
+  - first:
+      213: 2948134152771601002
+    second: Faces_61
+  - first:
+      213: -3859788440508633740
+    second: Faces_62
+  - first:
+      213: -709072454938565892
+    second: Faces_63
+  - first:
+      213: 5008551644379545953
+    second: Faces_64
+  - first:
+      213: -5077537740630307255
+    second: Faces_0
+  - first:
+      213: 5449978347385577728
+    second: Faces_1
+  - first:
+      213: -2990205301970483042
+    second: Faces_2
+  - first:
+      213: -6665994921442415532
+    second: Faces_3
+  - first:
+      213: -2201118782426392052
+    second: Faces_4
+  - first:
+      213: 7780873338791720869
+    second: Faces_5
+  - first:
+      213: 6914853639235031173
+    second: Faces_6
+  - first:
+      213: -7276290702665322381
+    second: Faces_7
+  - first:
+      213: 3184901483730451310
+    second: Faces_8
+  - first:
+      213: 8360151698652016328
+    second: Faces_9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Faces_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e471ca356f889b0800000000000000
+      internalID: -5077537740630307255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faces_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001ec758e6632ab40800000000000000
+      internalID: 5449978347385577728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faces_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e984f82ee18a086d0800000000000000
+      internalID: -2990205301970483042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faces_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cedd8dfe0ad73a0800000000000000
+      internalID: -6665994921442415532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faces_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ad801212e0471e0800000000000000
+      internalID: -2201118782426392052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faces_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7fcf8a3173bfb60800000000000000
+      internalID: 7780873338791720869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faces_6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580db689fbe76ff50800000000000000
+      internalID: 6914853639235031173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faces_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370f729482c650b90800000000000000
+      internalID: -7276290702665322381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faces_8
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b3e5e660b033c20800000000000000
+      internalID: 3184901483730451310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Faces_9
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce288a0da9350470800000000000000
+      internalID: 8360151698652016328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
