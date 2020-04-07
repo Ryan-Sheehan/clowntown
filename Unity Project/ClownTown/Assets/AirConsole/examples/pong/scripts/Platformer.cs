@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player_Platformer : MonoBehaviour {
+public class Platformer : MonoBehaviour {
 
-	private Rigidbody rigidBody;
+	private Rigidbody2D rigidBody;
 
 	bool movingLeft;
 	bool movingRight;
@@ -14,7 +14,7 @@ public class Player_Platformer : MonoBehaviour {
 
 
 	private void Start (){
-		rigidBody = GetComponent<Rigidbody> ();
+		rigidBody = GetComponent<Rigidbody2D> ();
 	}
 
 	public void ButtonInput (string input){
@@ -40,9 +40,9 @@ public class Player_Platformer : MonoBehaviour {
 
 	private void FixedUpdate(){
 		if (movingLeft && !movingRight) {
-			rigidBody.MovePosition(rigidBody.position + new Vector3 (-playerSpeed, 0, 0)); 
+			rigidBody.MovePosition(rigidBody.position + new Vector2 (-playerSpeed, 0)); 
 		} else if (!movingLeft && movingRight) {
-			rigidBody.MovePosition(rigidBody.position + new Vector3 (playerSpeed, 0, 0)); 
+			rigidBody.MovePosition(rigidBody.position + new Vector2 (playerSpeed, 0)); 
 		}
 	}
 }
