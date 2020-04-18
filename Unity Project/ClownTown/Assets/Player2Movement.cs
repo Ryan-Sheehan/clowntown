@@ -18,17 +18,19 @@ public class Player2Movement : MonoBehaviour
         horizontalMove = Input.GetAxisRaw("Horizontal2") * runSpeed;
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
-
-        if (Input.GetButtonDown("Jump2"))
+        if (!PauseMenu.GameIsPaused)
         {
-            jump = true;
-            animator.SetBool("isJumping", true);
-        }
+            if (Input.GetButtonDown("Jump2"))
+            {
+                jump = true;
+                animator.SetBool("isJumping", true);
+            }
 
-        if (Input.GetButtonDown("Crouch2"))
-            crouch = true;
-        else if (Input.GetButtonUp("Crouch2"))
-            crouch = false;
+            if (Input.GetButtonDown("Crouch2"))
+                crouch = true;
+            else if (Input.GetButtonUp("Crouch2"))
+                crouch = false;
+        }
     }
 
     public void OnLanding()

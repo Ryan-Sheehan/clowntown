@@ -14,9 +14,12 @@ public class PlayerCombat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.L))
+        if (!PauseMenu.GameIsPaused)
         {
-            Attack();
+            if (Input.GetKeyDown(KeyCode.L))
+            {
+                Attack();
+            }
         }
     }
 
