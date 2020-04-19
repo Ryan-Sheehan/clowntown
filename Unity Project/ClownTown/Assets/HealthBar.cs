@@ -12,13 +12,15 @@ public class HealthBar : MonoBehaviour
     public Collider2D circle;
     public Collider2D box;
 
-    public Text winText;
+    public GameObject gameOverMenu;
 
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
-        winText.text = "";
+
+        //commented out for new gameover menu
+        //winText.text = "";
     }
 
     public void TakeDamage(int damage)
@@ -47,7 +49,7 @@ public class HealthBar : MonoBehaviour
             GetComponent<Player2Combat>().enabled = false;
         circle.enabled = false;
         box.enabled = false;
-        winText.text = "Game Over!";
+        gameOverMenu.SetActive(true);
         this.enabled = false;
     }
 }
