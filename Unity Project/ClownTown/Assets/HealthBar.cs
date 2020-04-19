@@ -18,9 +18,6 @@ public class HealthBar : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-
-        //commented out for new gameover menu
-        //winText.text = "";
     }
 
     public void TakeDamage(int damage)
@@ -50,6 +47,7 @@ public class HealthBar : MonoBehaviour
         circle.enabled = false;
         box.enabled = false;
         gameOverMenu.SetActive(true);
+
         this.enabled = false;
     }
 }
