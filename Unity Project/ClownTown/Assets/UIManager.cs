@@ -17,9 +17,40 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         mgr = FindObjectOfType<FeatureManager>();
-        descText = transform.Find("Navigation").Find("Description").GetComponent<Text>();
-        transform.Find("Navigation").Find("Previous").GetComponent<Button>().onClick.AddListener(() => mgr.PreviousChoice());
-        transform.Find("Navigation").Find("Next").GetComponent<Button>().onClick.AddListener(() => mgr.NextChoice());
+        //descText = transform.Find("Navigation").Find("Description").GetComponent<Text>();
+        
+        transform.Find("Navigation-Feet").Find("Previous").GetComponent<Button>().onClick.AddListener(() => mgr.PreviousChoice());
+        transform.Find("Navigation-Feet").Find("Next").GetComponent<Button>().onClick.AddListener(() => mgr.NextChoice());
+        transform.Find("Navigation-Feet").Find("Previous").GetComponent<Button>().onClick.AddListener(() => mgr.SetCurrent(5));
+        transform.Find("Navigation-Feet").Find("Next").GetComponent<Button>().onClick.AddListener(() => mgr.SetCurrent(5));
+        
+        transform.Find("Navigation-Torso").Find("Previous").GetComponent<Button>().onClick.AddListener(() => mgr.NextChoice());
+        transform.Find("Navigation-Torso").Find("Next").GetComponent<Button>().onClick.AddListener(() => mgr.NextChoice());
+        transform.Find("Navigation-Torso").Find("Previous").GetComponent<Button>().onClick.AddListener(() => mgr.SetCurrent(4));
+        transform.Find("Navigation-Torso").Find("Next").GetComponent<Button>().onClick.AddListener(() => mgr.SetCurrent(4));
+        
+
+        transform.Find("Navigation-Ears").Find("Previous").GetComponent<Button>().onClick.AddListener(() => mgr.PreviousChoice());
+        transform.Find("Navigation-Ears").Find("Next").GetComponent<Button>().onClick.AddListener(() => mgr.NextChoice());
+        transform.Find("Navigation-Ears").Find("Previous").GetComponent<Button>().onClick.AddListener(() => mgr.SetCurrent(3));
+        transform.Find("Navigation-Ears").Find("Next").GetComponent<Button>().onClick.AddListener(() => mgr.SetCurrent(3));
+        
+        transform.Find("Navigation-FaceFeatures").Find("Previous").GetComponent<Button>().onClick.AddListener(() => mgr.PreviousChoice());
+        transform.Find("Navigation-FaceFeatures").Find("Next").GetComponent<Button>().onClick.AddListener(() => mgr.NextChoice());
+        transform.Find("Navigation-FaceFeatures").Find("Previous").GetComponent<Button>().onClick.AddListener(() => mgr.SetCurrent(2));
+        transform.Find("Navigation-FaceFeatures").Find("Next").GetComponent<Button>().onClick.AddListener(() => mgr.SetCurrent(2));
+        
+
+        transform.Find("Navigation-Hat").Find("Previous").GetComponent<Button>().onClick.AddListener(() => mgr.PreviousChoice());
+        transform.Find("Navigation-Hat").Find("Next").GetComponent<Button>().onClick.AddListener(() => mgr.NextChoice());
+        transform.Find("Navigation-Hat").Find("Previous").GetComponent<Button>().onClick.AddListener(() => mgr.SetCurrent(1));
+        transform.Find("Navigation-Hat").Find("Next").GetComponent<Button>().onClick.AddListener(() => mgr.SetCurrent(1));
+        
+        transform.Find("Navigation-FaceColor").Find("Previous").GetComponent<Button>().onClick.AddListener(() => mgr.PreviousChoice());
+        transform.Find("Navigation-FaceColor").Find("Next").GetComponent<Button>().onClick.AddListener(() => mgr.NextChoice());
+        transform.Find("Navigation-FaceColor").Find("Previous").GetComponent<Button>().onClick.AddListener(() => mgr.SetCurrent(0));
+        transform.Find("Navigation-FaceColor").Find("Next").GetComponent<Button>().onClick.AddListener(() => mgr.SetCurrent(0));
+        
         InitializeFeatureButtons();
         transform.Find("NextLevel").GetComponent<Button>().onClick.AddListener(() => nextLevel("Stage1"));
     }
@@ -34,6 +65,7 @@ public class UIManager : MonoBehaviour
         buttons = new List<Button>();
         float height = btnPrefab.rect.height;
         float width = btnPrefab.rect.width;
+
         for (int i = 0; i < mgr.features.Count; i++)
         {
             RectTransform temp = Instantiate<RectTransform>(btnPrefab);
@@ -63,6 +95,6 @@ public class UIManager : MonoBehaviour
     {
         UpdateFeatureButtons();
         EventSystem.current.SetSelectedGameObject(buttons[mgr.currFeature].gameObject);
-        descText.text = mgr.features[mgr.currFeature].ID + " #" + (mgr.features[mgr.currFeature].currIndex + 1).ToString();
+        //descText.text = mgr.features[mgr.currFeature].ID + " #" + (mgr.features[mgr.currFeature].currIndex + 1).ToString();
     }
 }
