@@ -54,7 +54,7 @@ public class UIManager : MonoBehaviour
         //transform.Find("Navigation-FaceColor").Find("Previous").GetComponent<Button>().onClick.AddListener(() => mgr.SetCurrent(0));
         //transform.Find("Navigation-FaceColor").Find("Next").GetComponent<Button>().onClick.AddListener(() => mgr.SetCurrent(0));
         
-        InitializeFeatureButtons();
+        //InitializeFeatureButtons();
         transform.Find("NextLevel").GetComponent<Button>().onClick.AddListener(() => nextLevel("Stage1"));
     }
 
@@ -147,7 +147,7 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        UpdateFeatureButtons();
+        //UpdateFeatureButtons();
         EventSystem.current.SetSelectedGameObject(buttons[mgr.currFeature].gameObject);
         EventSystem.current.SetSelectedGameObject(buttons2[mgr2.currFeature].gameObject);
         //descText.text = mgr.features[mgr.currFeature].ID + " #" + (mgr.features[mgr.currFeature].currIndex + 1).ToString();

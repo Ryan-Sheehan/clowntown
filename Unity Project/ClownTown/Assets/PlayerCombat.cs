@@ -11,16 +11,39 @@ public class PlayerCombat : MonoBehaviour
     public LayerMask enemyLayers;
     public int attackDamage = 40;
 
+    public GameObject bulletPrefab;
+    public GameObject pie;
+
+    public bool hasPie;
+
+    public Transform firePoint;
+
+    private void Start()
+    {
+        pie.SetActive(false);
+        hasPie = false;
+    }
+
     // Update is called once per frame
     void Update()
     {
+
         if (!PauseMenu.GameIsPaused)
         {
             if (Input.GetKeyDown(KeyCode.L))
             {
-                Attack();
+                if (hasPie)
+                    Shoot();
+                else
+                    Attack();
             }
         }
+    }
+
+    void Shoot()
+    {
+        animator.SetTrigger("Pie");
+        Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
     }
 
     void Attack()
