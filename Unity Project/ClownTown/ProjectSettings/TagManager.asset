@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - PlatformSphere
+  - Player2
   layers:
   - Default
   - TransparentFX

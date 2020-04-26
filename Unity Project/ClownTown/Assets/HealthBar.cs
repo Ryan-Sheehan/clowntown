@@ -32,7 +32,7 @@ public class HealthBar : MonoBehaviour
         }
     }
 
-    void Die()
+    public void Die()
     {
         animator.SetBool("isDead", true);
         if (GetComponent<Player2Movement>() == null)
