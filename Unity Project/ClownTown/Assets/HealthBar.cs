@@ -55,11 +55,10 @@ public class HealthBar : MonoBehaviour
         if (sceneName == "Stage2")
         {
             GameObject.Find("PauseCanvas").GetComponent<PauseMenu>().isGameOver = true;
-
             gameOverMenu.SetActive(true);
-
             this.enabled = false;
-        } else
+        }
+        else
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }

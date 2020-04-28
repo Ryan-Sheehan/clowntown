@@ -19,8 +19,9 @@ public class DeathMenu : MonoBehaviour
     public void RestartMatch()
     {
         Time.timeScale = 1f;
-        Scene currentScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(currentScene.name);
+        //Scene currentScene = SceneManager.GetActiveScene();
+        //SceneManager.LoadScene(currentScene.name);
+        SceneManager.LoadScene(2);
     }
 
     public void LoadMenu()
