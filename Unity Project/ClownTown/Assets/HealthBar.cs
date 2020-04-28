@@ -18,6 +18,7 @@ public class HealthBar : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
+        GameObject.Find("PauseCanvas").GetComponent<PauseMenu>().isGameOver = false;
     }
 
     public void TakeDamage(int damage)
@@ -46,6 +47,8 @@ public class HealthBar : MonoBehaviour
             GetComponent<Player2Combat>().enabled = false;
         circle.enabled = false;
         box.enabled = false;
+
+        GameObject.Find("PauseCanvas").GetComponent<PauseMenu>().isGameOver = true;
         gameOverMenu.SetActive(true);
 
         this.enabled = false;
