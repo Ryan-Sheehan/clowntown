@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
@@ -48,9 +49,19 @@ public class HealthBar : MonoBehaviour
         circle.enabled = false;
         box.enabled = false;
 
-        GameObject.Find("PauseCanvas").GetComponent<PauseMenu>().isGameOver = true;
-        gameOverMenu.SetActive(true);
 
-        this.enabled = false;
+        string sceneName = SceneManager.GetActiveScene().name;
+
+        if (sceneName == "Stage2")
+        {
+            GameObject.Find("PauseCanvas").GetComponent<PauseMenu>().isGameOver = true;
+
+            gameOverMenu.SetActive(true);
+
+            this.enabled = false;
+        } else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 }

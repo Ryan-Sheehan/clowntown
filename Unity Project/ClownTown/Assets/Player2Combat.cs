@@ -11,8 +11,11 @@ public class Player2Combat : MonoBehaviour
     public int attackDamage = 40;
 
     public bool hasPie;
+    public bool hasSword;
 
     public GameObject pie;
+    public GameObject sword;
+    public Sword2 sword2;
     public GameObject bulletPrefab;
 
     public Transform firePoint;
@@ -20,7 +23,9 @@ public class Player2Combat : MonoBehaviour
     private void Start()
     {
         hasPie = false;
+        hasSword = false;
         pie.SetActive(false);
+        sword.SetActive(false);
     }
 
 
@@ -34,10 +39,18 @@ public class Player2Combat : MonoBehaviour
             {
                 if (hasPie)
                     Shoot();
+                else if (hasSword)
+                    Stab();
                 else
                     Attack();
             }
         }
+    }
+
+    void Stab()
+    {
+        sword2.attacking = true;
+        animator.SetTrigger("Sword");
     }
 
     void Shoot()
