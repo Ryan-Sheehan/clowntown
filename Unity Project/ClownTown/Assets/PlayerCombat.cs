@@ -9,7 +9,7 @@ public class PlayerCombat : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
-    public int attackDamage = 40;
+    public int attackDamage = 10;
 
     public GameObject bulletPrefab;
     public GameObject pie;
