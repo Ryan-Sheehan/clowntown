@@ -1843,7 +1843,7 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 512
-  attackDamage: 40
+  attackDamage: 10
   bulletPrefab: {fileID: 2498258315830192316, guid: ef049eb3d42010e4d95ad0f67cfd9db5,
     type: 3}
   pie: {fileID: 1912581016}
@@ -3648,7 +3648,7 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 256
-  attackDamage: 40
+  attackDamage: 10
   hasPie: 0
   pie: {fileID: 1287464929}
   bulletPrefab: {fileID: 2498258315830192316, guid: ef049eb3d42010e4d95ad0f67cfd9db5,
