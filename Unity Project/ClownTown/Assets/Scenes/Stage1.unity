@@ -1790,6 +1790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 284543022}
   maxHealth: 100
+  currentHealth: 0
   circle: {fileID: 284543023}
   box: {fileID: 284543024}
   gameOverMenu: {fileID: 522219542}
@@ -3691,6 +3692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 684950668}
   maxHealth: 100
+  currentHealth: 0
   circle: {fileID: 684950674}
   box: {fileID: 684950675}
   gameOverMenu: {fileID: 522219542}
