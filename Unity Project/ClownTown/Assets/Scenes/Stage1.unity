@@ -2026,6 +2026,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pie 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5708507264268433382, guid: aaf4495fa1fec5c4088c614d529a920a,
+        type: 3}
+      propertyPath: pie1
+      value: 
+      objectReference: {fileID: 1912581016}
+    - target: {fileID: 5708507264268433382, guid: aaf4495fa1fec5c4088c614d529a920a,
+        type: 3}
+      propertyPath: pie2
+      value: 
+      objectReference: {fileID: 1287464929}
+    - target: {fileID: 5708507264268433382, guid: aaf4495fa1fec5c4088c614d529a920a,
+        type: 3}
+      propertyPath: player2combat
+      value: 
+      objectReference: {fileID: 684950671}
+    - target: {fileID: 5708507264268433382, guid: aaf4495fa1fec5c4088c614d529a920a,
+        type: 3}
+      propertyPath: player1combat
+      value: 
+      objectReference: {fileID: 284543028}
     - target: {fileID: 5708507264268433385, guid: aaf4495fa1fec5c4088c614d529a920a,
         type: 3}
       propertyPath: m_LocalPosition.x
