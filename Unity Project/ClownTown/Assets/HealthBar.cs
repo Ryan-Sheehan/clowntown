@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
     public Animator animator;
     public int maxHealth = 100;
-    int currentHealth;
+    public int currentHealth;
 
     public Collider2D circle;
     public Collider2D box;
@@ -18,6 +19,7 @@ public class HealthBar : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
+        GameObject.Find("PauseCanvas").GetComponent<PauseMenu>().isGameOver = false;
     }
 
     public void TakeDamage(int damage)
@@ -46,8 +48,19 @@ public class HealthBar : MonoBehaviour
             GetComponent<Player2Combat>().enabled = false;
         circle.enabled = false;
         box.enabled = false;
-        gameOverMenu.SetActive(true);
 
-        this.enabled = false;
+
+        string sceneName = SceneManager.GetActiveScene().name;
+
+        if (sceneName == "Stage2")
+        {
+            GameObject.Find("PauseCanvas").GetComponent<PauseMenu>().isGameOver = true;
+            gameOverMenu.SetActive(true);
+            this.enabled = false;
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 }

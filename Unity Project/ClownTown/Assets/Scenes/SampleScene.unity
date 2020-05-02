@@ -451,7 +451,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 5954330446415902679, guid: 721a3e1f9d695414ea1bd926ed29fb7c,
+  m_Sprite: {fileID: -4459757999362808358, guid: 721a3e1f9d695414ea1bd926ed29fb7c,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -744,7 +744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   features:
   - ID: Heads
-    currIndex: 8
+    currIndex: 3
     choices:
     - {fileID: 2597511967882924710, guid: d6a734ccb353df940804481d66e61a3e, type: 3}
     - {fileID: -5109063666472242871, guid: d6a734ccb353df940804481d66e61a3e, type: 3}
@@ -767,7 +767,7 @@ MonoBehaviour:
     - {fileID: 3432692127742862960, guid: d0fd7311d3a50b64fa011ad0e693a202, type: 3}
     renderer: {fileID: 1806695525}
   - ID: Faces
-    currIndex: 9
+    currIndex: 2
     choices:
     - {fileID: -5285785097126754818, guid: 9a4d8b6dc31170249920c0e21c4c84f5, type: 3}
     - {fileID: 5219528537255451192, guid: 9a4d8b6dc31170249920c0e21c4c84f5, type: 3}
@@ -781,7 +781,7 @@ MonoBehaviour:
     - {fileID: -6889968230148230970, guid: 9a4d8b6dc31170249920c0e21c4c84f5, type: 3}
     renderer: {fileID: 1988023708}
   - ID: Ears
-    currIndex: 1
+    currIndex: 2
     choices:
     - {fileID: 6007483823391632850, guid: 303cf8c48248b9e47aa9786e1c3f7442, type: 3}
     - {fileID: -899137343402776615, guid: 303cf8c48248b9e47aa9786e1c3f7442, type: 3}
@@ -790,7 +790,7 @@ MonoBehaviour:
     - {fileID: 3735192355704160683, guid: 303cf8c48248b9e47aa9786e1c3f7442, type: 3}
     renderer: {fileID: 689186449}
   - ID: Outfits
-    currIndex: 9
+    currIndex: 6
     choices:
     - {fileID: 6966116154906852531, guid: 721a3e1f9d695414ea1bd926ed29fb7c, type: 3}
     - {fileID: 4973517822738472003, guid: 721a3e1f9d695414ea1bd926ed29fb7c, type: 3}
@@ -804,7 +804,7 @@ MonoBehaviour:
     - {fileID: 5954330446415902679, guid: 721a3e1f9d695414ea1bd926ed29fb7c, type: 3}
     renderer: {fileID: 1357588672}
   - ID: Shoes
-    currIndex: 0
+    currIndex: 1
     choices:
     - {fileID: 2371641743025836735, guid: 29e2d696b20fe22438e5a8541156aef7, type: 3}
     - {fileID: 8445706768826566080, guid: 29e2d696b20fe22438e5a8541156aef7, type: 3}
@@ -891,7 +891,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -899137343402776615, guid: 303cf8c48248b9e47aa9786e1c3f7442,
+  m_Sprite: {fileID: -1091634654289235958, guid: 303cf8c48248b9e47aa9786e1c3f7442,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1069,7 +1069,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1724290854539664673, guid: d6a734ccb353df940804481d66e61a3e,
+  m_Sprite: {fileID: -7225834784706996516, guid: d6a734ccb353df940804481d66e61a3e,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1137,7 +1137,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -899137343402776615, guid: 303cf8c48248b9e47aa9786e1c3f7442,
+  m_Sprite: {fileID: -1091634654289235958, guid: 303cf8c48248b9e47aa9786e1c3f7442,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1717,7 +1717,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 5954330446415902679, guid: 721a3e1f9d695414ea1bd926ed29fb7c,
+  m_Sprite: {fileID: -4459757999362808358, guid: 721a3e1f9d695414ea1bd926ed29fb7c,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2011,7 +2011,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1724290854539664673, guid: d6a734ccb353df940804481d66e61a3e,
+  m_Sprite: {fileID: -7225834784706996516, guid: d6a734ccb353df940804481d66e61a3e,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2071,7 +2071,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   features:
   - ID: Heads
-    currIndex: 8
+    currIndex: 3
     choices:
     - {fileID: 2597511967882924710, guid: d6a734ccb353df940804481d66e61a3e, type: 3}
     - {fileID: -5109063666472242871, guid: d6a734ccb353df940804481d66e61a3e, type: 3}
@@ -2094,7 +2094,7 @@ MonoBehaviour:
     - {fileID: 3432692127742862960, guid: d0fd7311d3a50b64fa011ad0e693a202, type: 3}
     renderer: {fileID: 1166401934}
   - ID: Faces
-    currIndex: 9
+    currIndex: 2
     choices:
     - {fileID: -5285785097126754818, guid: 9a4d8b6dc31170249920c0e21c4c84f5, type: 3}
     - {fileID: 5219528537255451192, guid: 9a4d8b6dc31170249920c0e21c4c84f5, type: 3}
@@ -2108,7 +2108,7 @@ MonoBehaviour:
     - {fileID: -6889968230148230970, guid: 9a4d8b6dc31170249920c0e21c4c84f5, type: 3}
     renderer: {fileID: 1956654180}
   - ID: Ears
-    currIndex: 1
+    currIndex: 2
     choices:
     - {fileID: 6007483823391632850, guid: 303cf8c48248b9e47aa9786e1c3f7442, type: 3}
     - {fileID: -899137343402776615, guid: 303cf8c48248b9e47aa9786e1c3f7442, type: 3}
@@ -2117,7 +2117,7 @@ MonoBehaviour:
     - {fileID: 3735192355704160683, guid: 303cf8c48248b9e47aa9786e1c3f7442, type: 3}
     renderer: {fileID: 1023780129}
   - ID: Outfits
-    currIndex: 9
+    currIndex: 6
     choices:
     - {fileID: 6966116154906852531, guid: 721a3e1f9d695414ea1bd926ed29fb7c, type: 3}
     - {fileID: 4973517822738472003, guid: 721a3e1f9d695414ea1bd926ed29fb7c, type: 3}
@@ -2131,7 +2131,7 @@ MonoBehaviour:
     - {fileID: 5954330446415902679, guid: 721a3e1f9d695414ea1bd926ed29fb7c, type: 3}
     renderer: {fileID: 504530179}
   - ID: Shoes
-    currIndex: 0
+    currIndex: 1
     choices:
     - {fileID: 2371641743025836735, guid: 29e2d696b20fe22438e5a8541156aef7, type: 3}
     - {fileID: 8445706768826566080, guid: 29e2d696b20fe22438e5a8541156aef7, type: 3}
@@ -2201,7 +2201,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 2371641743025836735, guid: 29e2d696b20fe22438e5a8541156aef7,
+  m_Sprite: {fileID: 8445706768826566080, guid: 29e2d696b20fe22438e5a8541156aef7,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2768,7 +2768,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -6889968230148230970, guid: 9a4d8b6dc31170249920c0e21c4c84f5,
+  m_Sprite: {fileID: -2352396353401391747, guid: 9a4d8b6dc31170249920c0e21c4c84f5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2850,7 +2850,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -6889968230148230970, guid: 9a4d8b6dc31170249920c0e21c4c84f5,
+  m_Sprite: {fileID: -2352396353401391747, guid: 9a4d8b6dc31170249920c0e21c4c84f5,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2994,7 +2994,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 2371641743025836735, guid: 29e2d696b20fe22438e5a8541156aef7,
+  m_Sprite: {fileID: 8445706768826566080, guid: 29e2d696b20fe22438e5a8541156aef7,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3046,7 +3046,8 @@ AudioSource:
   m_GameObject: {fileID: 2038133248}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 77b5c52649cbf5940ba97f219b573957,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: c7d4402e6fc697944bd0b5ba4e6b0098, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.302

@@ -5,23 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class DeathMenu : MonoBehaviour
 {
-
     public GameObject deathMenuUI;
 
     // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Application.Quit();
-        }
-    }
+//    void Update()
+//    {
+//        if (Input.GetKeyDown(KeyCode.Escape))
+//        {
+//            Application.Quit();
+//        }
+//    }
 
     public void RestartMatch()
     {
         Time.timeScale = 1f;
-        Scene currentScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(currentScene.name);
+        //Scene currentScene = SceneManager.GetActiveScene();
+        //SceneManager.LoadScene(currentScene.name);
+        SceneManager.LoadScene(2);
     }
 
     public void LoadMenu()

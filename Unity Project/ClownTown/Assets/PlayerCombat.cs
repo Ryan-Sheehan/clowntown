@@ -9,18 +9,22 @@ public class PlayerCombat : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
-    public int attackDamage = 40;
+    public int attackDamage = 10;
 
     public GameObject bulletPrefab;
     public GameObject pie;
+    public GameObject sword;
+    public Sword2 sword2;
 
     public bool hasPie;
+    public bool hasSword;
 
     public Transform firePoint;
 
     private void Start()
     {
         pie.SetActive(false);
+        sword.SetActive(false);
         hasPie = false;
     }
 
@@ -34,10 +38,18 @@ public class PlayerCombat : MonoBehaviour
             {
                 if (hasPie)
                     Shoot();
+                else if (hasSword)
+                    Stab();
                 else
                     Attack();
             }
         }
+    }
+
+    void Stab()
+    {
+        sword2.attacking = true;
+        animator.SetTrigger("Sword");
     }
 
     void Shoot()
