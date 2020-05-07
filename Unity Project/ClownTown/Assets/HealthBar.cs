@@ -66,7 +66,7 @@ public class HealthBar : MonoBehaviour
             string sceneName = SceneManager.GetActiveScene().name;
 
             //CHANGE THIS CODE WHEN MORE LEVELS ADDED
-            if (sceneName == "Stage2")
+            if (sceneName == "FinalStage")
             {
                 GameObject.Find("PauseCanvas").GetComponent<PauseMenu>().isGameOver = true;
                 gameOverMenu.SetActive(true);
