@@ -34,7 +34,7 @@ public class PlayerCombat : MonoBehaviour
 
         if (!PauseMenu.GameIsPaused)
         {
-            if (Input.GetKeyDown(KeyCode.L))
+            if (Input.GetButtonDown("Attack1"))
             {
                 if (hasPie)
                     Shoot();

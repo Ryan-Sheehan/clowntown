@@ -15,6 +15,8 @@ public class HealthBar : MonoBehaviour
 
     public GameObject gameOverMenu;
 
+    bool isDead = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,31 +38,45 @@ public class HealthBar : MonoBehaviour
 
     public void Die()
     {
-        animator.SetBool("isDead", true);
-        if (GetComponent<Player2Movement>() == null)
-            GetComponent<PlayerMovement>().enabled = false;
-        else 
-            GetComponent<Player2Movement>().enabled = false;
+        if (!isDead) {
+            isDead = true;
 
-        if (GetComponent<Player2Combat>() == null)
-            GetComponent<PlayerCombat>().enabled = false;
-        else
-            GetComponent<Player2Combat>().enabled = false;
-        circle.enabled = false;
-        box.enabled = false;
+            animator.SetBool("isDead", true);
+            if (GetComponent<Player2Movement>() == null)
+                GetComponent<PlayerMovement>().enabled = false;
+            else
+                GetComponent<Player2Movement>().enabled = false;
 
+            if (GetComponent<Player2Combat>() == null)
+                GetComponent<PlayerCombat>().enabled = false;
+            else
+                GetComponent<Player2Combat>().enabled = false;
+            circle.enabled = false;
+            box.enabled = false;
 
-        string sceneName = SceneManager.GetActiveScene().name;
+            if (this.name == "clown2")
+            {
+                PlayerPrefs.SetInt("Score1", PlayerPrefs.GetInt("Score1", 0) + 1);
+            }
+            else if (this.name == "clown1")
+            {
+                PlayerPrefs.SetInt("Score2", PlayerPrefs.GetInt("Score2", 0) + 1);
+            }
 
-        if (sceneName == "Stage2")
-        {
-            GameObject.Find("PauseCanvas").GetComponent<PauseMenu>().isGameOver = true;
-            gameOverMenu.SetActive(true);
-            this.enabled = false;
-        }
-        else
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            string sceneName = SceneManager.GetActiveScene().name;
+
+            //CHANGE THIS CODE WHEN MORE LEVELS ADDED
+            if (sceneName == "FinalStage")
+            {
+                GameObject.Find("PauseCanvas").GetComponent<PauseMenu>().isGameOver = true;
+                gameOverMenu.SetActive(true);
+                this.enabled = false;
+            }
+            else
+            {
+
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
         }
     }
 }

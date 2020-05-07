@@ -7,6 +7,12 @@ public class HealthHUD : MonoBehaviour
 {
     public Slider slider;
     public GameObject clown;
+
+    void Start()
+    {
+        int HP = clown.GetComponent<HealthBar>().currentHealth;
+        slider.value = HP;
+    }
     // Update is called once per frame
     void Update()
     {
