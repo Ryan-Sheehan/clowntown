@@ -1,0 +1,1304 @@
+fileFormatVersion: 2
+guid: e1f756df75a7a400399d73c3ab1ee223
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1821820902607344700
+    second: Stage 7 Sprite Sheet_0
+  - first:
+      213: 6311427108176535672
+    second: Stage 7 Sprite Sheet_1
+  - first:
+      213: 3978086592077911227
+    second: Stage 7 Sprite Sheet_2
+  - first:
+      213: -1451364270204351178
+    second: Stage 7 Sprite Sheet_3
+  - first:
+      213: -5408038605094882885
+    second: Stage 7 Sprite Sheet_4
+  - first:
+      213: 4982874268614558910
+    second: Stage 7 Sprite Sheet_5
+  - first:
+      213: -4202551499801491346
+    second: Stage 7 Sprite Sheet_6
+  - first:
+      213: -3529349595823130616
+    second: Stage 7 Sprite Sheet_7
+  - first:
+      213: 8072956573933067048
+    second: Stage 7 Sprite Sheet_8
+  - first:
+      213: 6722860263528225662
+    second: Stage 7 Sprite Sheet_9
+  - first:
+      213: 7101418388650555586
+    second: Stage 7 Sprite Sheet_10
+  - first:
+      213: 9068053199906453944
+    second: Stage 7 Sprite Sheet_11
+  - first:
+      213: -1873052405776417977
+    second: Stage 7 Sprite Sheet_12
+  - first:
+      213: 7108255529660804477
+    second: Stage 7 Sprite Sheet_13
+  - first:
+      213: -1419231410670255658
+    second: Stage 7 Sprite Sheet_14
+  - first:
+      213: 7418724813430495341
+    second: Stage 7 Sprite Sheet_15
+  - first:
+      213: 3250116975096775905
+    second: Stage 7 Sprite Sheet_16
+  - first:
+      213: 1167886396789987977
+    second: Stage 7 Sprite Sheet_17
+  - first:
+      213: 6024868070185177195
+    second: Stage 7 Sprite Sheet_18
+  - first:
+      213: -4165284124711047299
+    second: Stage 7 Sprite Sheet_19
+  - first:
+      213: 5585778737018155200
+    second: Stage 7 Sprite Sheet_20
+  - first:
+      213: -4891710586404617304
+    second: Stage 7 Sprite Sheet_21
+  - first:
+      213: -1775702596461435739
+    second: Stage 7 Sprite Sheet_22
+  - first:
+      213: 2153220213495903570
+    second: Stage 7 Sprite Sheet_23
+  - first:
+      213: -5412700875898883108
+    second: Stage 7 Sprite Sheet_24
+  - first:
+      213: 3837261608303329661
+    second: Stage 7 Sprite Sheet_25
+  - first:
+      213: -3428290813164532999
+    second: Stage 7 Sprite Sheet_26
+  - first:
+      213: -4877644982518939109
+    second: Stage 7 Sprite Sheet_27
+  - first:
+      213: -8827995642851372867
+    second: Stage 7 Sprite Sheet_28
+  - first:
+      213: -2601807884345846164
+    second: Stage 7 Sprite Sheet_29
+  - first:
+      213: -7266490100420169766
+    second: Stage 7 Sprite Sheet_30
+  - first:
+      213: -7909194710999050833
+    second: Stage 7 Sprite Sheet_31
+  - first:
+      213: -504177698433371161
+    second: Stage 7 Sprite Sheet_32
+  - first:
+      213: 5772711107684076663
+    second: Stage 7 Sprite Sheet_33
+  - first:
+      213: 2700060409009256833
+    second: Stage 7 Sprite Sheet_34
+  - first:
+      213: 8810165167364763421
+    second: Stage 7 Sprite Sheet_35
+  - first:
+      213: -2840565029549228855
+    second: Stage 7 Sprite Sheet_36
+  - first:
+      213: -7379617180291659067
+    second: Stage 7 Sprite Sheet_37
+  - first:
+      213: -3326931169036657370
+    second: Stage 7 Sprite Sheet_38
+  - first:
+      213: 5723252902719360351
+    second: Stage 7 Sprite Sheet_39
+  - first:
+      213: -8189887484299716221
+    second: Stage 7 Sprite Sheet_40
+  - first:
+      213: 8818752680179875016
+    second: Stage 7 Sprite Sheet_41
+  - first:
+      213: -7725779749292225456
+    second: Stage 7 Sprite Sheet_42
+  - first:
+      213: -7512447604567895959
+    second: Stage 7 Sprite Sheet_43
+  - first:
+      213: -1040207485214129613
+    second: Stage 7 Sprite Sheet_44
+  - first:
+      213: 9037873540034657217
+    second: Stage 7 Sprite Sheet_45
+  - first:
+      213: 7359413004985543225
+    second: Stage 7 Sprite Sheet_46
+  - first:
+      213: 8571250732858952252
+    second: Stage 7 Sprite Sheet_47
+  - first:
+      213: 5618542843418614523
+    second: Stage 7 Sprite Sheet_48
+  - first:
+      213: -5550565627684473979
+    second: Stage 7 Sprite Sheet_49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3375
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34da406578684910800000000000000
+      internalID: 1821820902607344700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 3375
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87022a8f381b69750800000000000000
+      internalID: 6311427108176535672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3375
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb45c8ebda0053730800000000000000
+      internalID: 3978086592077911227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 3375
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d86cac2e7bbdbe0800000000000000
+      internalID: -1451364270204351178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3375
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb178bbaa89c2f4b0800000000000000
+      internalID: -5408038605094882885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3000
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb484353fb9b62540800000000000000
+      internalID: 4982874268614558910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 3000
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e680c005da98da5c0800000000000000
+      internalID: -4202551499801491346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3000
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8083bcced3b350fc0800000000000000
+      internalID: -3529349595823130616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 3000
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b5f6c4b37e80070800000000000000
+      internalID: 8072956573933067048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3000
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b503a5ac56c4d50800000000000000
+      internalID: 6722860263528225662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2625
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c871f8466e4d8260800000000000000
+      internalID: 7101418388650555586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2625
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9b4c8375238dd70800000000000000
+      internalID: 9068053199906453944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2625
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b7104c2c49106e0800000000000000
+      internalID: -1873052405776417977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2625
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d632a3eb895a260800000000000000
+      internalID: 7108255529660804477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2625
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d14ce82d80ed4ce0800000000000000
+      internalID: -1419231410670255658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2250
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6896e669ea94f660800000000000000
+      internalID: 7418724813430495341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2250
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e44c134b2cba1d20800000000000000
+      internalID: 3250116975096775905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2250
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a9daa7d7a253010800000000000000
+      internalID: 1167886396789987977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2250
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b601bf5b691ac9350800000000000000
+      internalID: 6024868070185177195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2250
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f260e3820f136c0800000000000000
+      internalID: -4165284124711047299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1875
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0b5e5aa2ca48d40800000000000000
+      internalID: 5585778737018155200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1875
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3c55993272d1cb0800000000000000
+      internalID: -4891710586404617304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1875
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a46d2785ef6b57e0800000000000000
+      internalID: -1775702596461435739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1875
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2553d9c3066c1ed10800000000000000
+      internalID: 2153220213495903570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1875
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3f9982b3932e4b0800000000000000
+      internalID: -5412700875898883108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d710a212a11b04530800000000000000
+      internalID: 3837261608303329661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1500
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fac7965ba34c60d0800000000000000
+      internalID: -3428290813164532999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1500
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b120e743bbf1f4cb0800000000000000
+      internalID: -4877644982518939109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1500
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0d52d4cb8ac7580800000000000000
+      internalID: -8827995642851372867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1500
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6651cf938584ebd0800000000000000
+      internalID: -2601807884345846164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1125
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf2090d0cd382b90800000000000000
+      internalID: -7266490100420169766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1125
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5d087a055ec3290800000000000000
+      internalID: -7909194710999050833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1125
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e37435fd0dc009f0800000000000000
+      internalID: -504177698433371161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1125
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c0674da2acc1050800000000000000
+      internalID: 5772711107684076663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1125
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189b71fe2aa887520800000000000000
+      internalID: 2700060409009256833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1feb4d9a8ef34a70800000000000000
+      internalID: 8810165167364763421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 750
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc3254d7294498d0800000000000000
+      internalID: -2840565029549228855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 750
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca885ef545569990800000000000000
+      internalID: -7379617180291659067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 750
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d15658abd54d1d0800000000000000
+      internalID: -3326931169036657370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 750
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d8f4221341d6f40800000000000000
+      internalID: 5723252902719360351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389d5e399bca75e80800000000000000
+      internalID: -8189887484299716221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 375
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc3520c6d0826a70800000000000000
+      internalID: 8818752680179875016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 375
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cc78e304488c490800000000000000
+      internalID: -7725779749292225456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 375
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9601fffc4bc6eb790800000000000000
+      internalID: -7512447604567895959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 375
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3320c1fadc07091f0800000000000000
+      internalID: -1040207485214129613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbfaa6991afc6d70800000000000000
+      internalID: 9037873540034657217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93aad8dd223e12660800000000000000
+      internalID: 7359413004985543225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a4ddc012333f670800000000000000
+      internalID: 8571250732858952252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa9741a2f219fd40800000000000000
+      internalID: 5618542843418614523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage 7 Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 750
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583bf5348fd68f2b0800000000000000
+      internalID: -5550565627684473979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
