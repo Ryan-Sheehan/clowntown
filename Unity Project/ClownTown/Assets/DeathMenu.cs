@@ -2,19 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class DeathMenu : MonoBehaviour
 {
     public GameObject deathMenuUI;
+    public TextMeshProUGUI headerText;
 
-    // Update is called once per frame
-//    void Update()
-//    {
-//        if (Input.GetKeyDown(KeyCode.Escape))
-//        {
-//            Application.Quit();
-//        }
-//    }
+    void Update()
+    {
+        if (PlayerPrefs.GetInt("Score1", 0) > PlayerPrefs.GetInt("Score2", 0))
+        {
+            headerText.text = "RIGHT CLOWN WINS!";
+        }
+        else if (PlayerPrefs.GetInt("Score1", 0) < PlayerPrefs.GetInt("Score2", 0))
+        {
+            headerText.text = "LEFT CLOWN WINS!";
+        }
+        else
+        {
+            headerText.text = "TIE!";
+        }
+    }
 
     public void RestartMatch()
     {
