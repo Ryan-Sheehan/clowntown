@@ -9804,6 +9804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathMenuUI: {fileID: 522219542}
+  headerText: {fileID: 198705420}
 --- !u!114 &2078951818
 MonoBehaviour:
   m_ObjectHideFlags: 0
