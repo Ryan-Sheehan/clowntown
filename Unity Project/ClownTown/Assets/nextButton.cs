@@ -1,24 +1,50 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class nextButton : MonoBehaviour
 {
 
-    public customize clown;
+    public customize clown1;
+    public customize clown2;
 
+    public Text countdown;
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.GetComponent<Button>().onClick.AddListener(() => NextClown());
-        
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        countdown.text = "";
     }
 
-    // Update is called once per frame
-    void NextClown()
+    private void Update()
     {
-        clown.Next();
+        if (Input.GetButtonDown("Ready"))
+            clown1.Ready();
 
+        if (Input.GetButtonDown("Ready2"))
+            clown2.Ready();
+
+        if (Input.GetButtonDown("Next"))
+        {
+            clown1.Next();
+        } else if (Input.GetButtonDown("Prev"))
+        {
+            clown1.Prev();
+        }
+        else if (Input.GetButtonDown("Prev2"))
+        {
+            clown2.Prev();
+        }
+        else if (Input.GetButtonDown("Next2"))
+        {
+            clown2.Next();
+        }
+
+        if (clown1.ready && clown2.ready)
+            SceneManager.LoadScene("Stage1");
     }
+
 }

@@ -10,6 +10,7 @@ public class Player2Movement : MonoBehaviour
 
     public HealthBar healthBar;
 
+
     float horizontalMove = 0f;
     bool jump = false;
     bool crouch = false;
@@ -17,11 +18,12 @@ public class Player2Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontalMove = Input.GetAxisRaw("Horizontal2") * runSpeed;
-        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
-        if (!PauseMenu.GameIsPaused)
+        if (!PauseMenu.GameIsPaused && GameController.IsInputEnabled)
         {
+            horizontalMove = Input.GetAxisRaw("Horizontal2") * runSpeed;
+            animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+
             if (Input.GetButtonDown("Jump2"))
             {
                 jump = true;

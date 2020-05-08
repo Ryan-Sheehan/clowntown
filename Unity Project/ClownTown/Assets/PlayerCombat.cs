@@ -7,7 +7,7 @@ public class PlayerCombat : MonoBehaviour
 
     public Animator animator;
     public Transform attackPoint;
-    public float attackRange = 0.5f;
+    public float attackRange = 0.1f;
     public LayerMask enemyLayers;
     public int attackDamage = 10;
 
@@ -24,6 +24,7 @@ public class PlayerCombat : MonoBehaviour
 
     public Transform firePoint;
 
+
     private void Start()
     {
         pie.SetActive(false);
@@ -38,7 +39,7 @@ public class PlayerCombat : MonoBehaviour
     void Update()
     {
 
-        if (!PauseMenu.GameIsPaused)
+        if (!PauseMenu.GameIsPaused && GameController.IsInputEnabled)
         {
             if (Input.GetButtonDown("Attack1"))
             {

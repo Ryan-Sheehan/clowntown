@@ -21,6 +21,7 @@ public class Player2Combat : MonoBehaviour
     public GameObject bulletPrefab;
     public GameObject iceCreamPrefab;
 
+
     public Transform firePoint;
 
     private void Start()
@@ -38,7 +39,7 @@ public class Player2Combat : MonoBehaviour
     void Update()
     {
 
-        if (!PauseMenu.GameIsPaused)
+        if (!PauseMenu.GameIsPaused && GameController.IsInputEnabled)
         {
             if (Input.GetButtonDown("Attack2"))
             {
