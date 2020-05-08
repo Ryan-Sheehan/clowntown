@@ -2024,7 +2024,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 284543022}
   attackPoint: {fileID: 7856218}
+  swordAttackPoint: {fileID: 0}
   attackRange: 0.29
+  swordAttackRange: 0.15
   enemyLayers:
     serializedVersion: 2
     m_Bits: 512
@@ -4870,7 +4872,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 684950668}
   attackPoint: {fileID: 1978073861}
+  swordAttackPoint: {fileID: 0}
   attackRange: 0.28
+  swordAttackRange: 0.15
   enemyLayers:
     serializedVersion: 2
     m_Bits: 256
@@ -6925,7 +6929,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: 265}
+  m_AnchoredPosition: {x: 2.45, y: 164}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1133890046
@@ -6948,11 +6952,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 76cf99bb21ccf9a48ba98424f2760154, type: 3}
-    m_FontSize: 72
+    m_FontSize: 300
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 1
-    m_MaxSize: 120
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
