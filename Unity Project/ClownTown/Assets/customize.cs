@@ -2,19 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class customize : MonoBehaviour
 {
     public Sprite[] choices;
     public int curr = 0;
 
-    public Text text;
-    public Text readyText;
+    public TextMeshProUGUI text;
+    public TextMeshProUGUI readyText;
 
     public bool clown1;
     public bool ready;
 
-    string oldText;
+    public string oldText;
 
     string[] texts = { "Good all around!", "Slow, but strong!", "Fast, but weak!" };
 
