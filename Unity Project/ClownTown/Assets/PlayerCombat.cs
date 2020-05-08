@@ -12,12 +12,15 @@ public class PlayerCombat : MonoBehaviour
     public int attackDamage = 10;
 
     public GameObject bulletPrefab;
+    public GameObject iceCreamPrefab;
     public GameObject pie;
     public GameObject sword;
+    public GameObject iceCream;
     public Sword2 sword2;
 
     public bool hasPie;
     public bool hasSword;
+    public bool hasIceCream;
 
     public Transform firePoint;
 
@@ -25,7 +28,10 @@ public class PlayerCombat : MonoBehaviour
     {
         pie.SetActive(false);
         sword.SetActive(false);
+        iceCream.SetActive(false);
         hasPie = false;
+        hasSword = false;
+        hasIceCream = false;
     }
 
     // Update is called once per frame
@@ -40,10 +46,18 @@ public class PlayerCombat : MonoBehaviour
                     Shoot();
                 else if (hasSword)
                     Stab();
+                else if (hasIceCream)
+                    IceCream();
                 else
                     Attack();
             }
         }
+    }
+
+    void IceCream()
+    {
+        animator.SetTrigger("Pie");
+        Instantiate(iceCreamPrefab, firePoint.position, firePoint.rotation);
     }
 
     void Stab()

@@ -14,12 +14,13 @@ public class HealthBar : MonoBehaviour
     public Collider2D box;
 
     public GameObject gameOverMenu;
-
     bool isDead = false;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        isDead = false;
         currentHealth = maxHealth;
         GameObject.Find("PauseCanvas").GetComponent<PauseMenu>().isGameOver = false;
     }
@@ -66,15 +67,16 @@ public class HealthBar : MonoBehaviour
             string sceneName = SceneManager.GetActiveScene().name;
 
             //CHANGE THIS CODE WHEN MORE LEVELS ADDED
-            if (sceneName == "FinalStage")
+            if (sceneName == "Stage7")
             {
                 GameObject.Find("PauseCanvas").GetComponent<PauseMenu>().isGameOver = true;
                 gameOverMenu.SetActive(true);
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
                 this.enabled = false;
             }
             else
             {
-
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }

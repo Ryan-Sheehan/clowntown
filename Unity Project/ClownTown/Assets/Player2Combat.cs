@@ -12,11 +12,14 @@ public class Player2Combat : MonoBehaviour
 
     public bool hasPie;
     public bool hasSword;
+    public bool hasIceCream;
 
     public GameObject pie;
     public GameObject sword;
+    public GameObject iceCream;
     public Sword2 sword2;
     public GameObject bulletPrefab;
+    public GameObject iceCreamPrefab;
 
     public Transform firePoint;
 
@@ -24,8 +27,10 @@ public class Player2Combat : MonoBehaviour
     {
         hasPie = false;
         hasSword = false;
+        hasIceCream = false;
         pie.SetActive(false);
         sword.SetActive(false);
+        iceCream.SetActive(false);
     }
 
 
@@ -41,10 +46,18 @@ public class Player2Combat : MonoBehaviour
                     Shoot();
                 else if (hasSword)
                     Stab();
+                else if (hasIceCream)
+                    IceCream();
                 else
                     Attack();
             }
         }
+    }
+
+    void IceCream()
+    {
+        animator.SetTrigger("Pie");
+        Instantiate(iceCreamPrefab, firePoint.position, firePoint.rotation);
     }
 
     void Stab()
