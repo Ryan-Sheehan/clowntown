@@ -15,14 +15,20 @@ public class Pie : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            player1combat.hasPie = true;
-            pie1.SetActive(true);
-            OnDestroy();
+            if (player1combat.hasIceCream == false && player1combat.hasSword == false)
+            {
+                player1combat.hasPie = true;
+                pie1.SetActive(true);
+                OnDestroy();
+            }
         } else if (collision.tag == "Player2")
         {
-            player2combat.hasPie = true;
-            pie2.SetActive(true);
-            OnDestroy();
+            if (player2combat.hasIceCream == false && player2combat.hasSword == false)
+            {
+                player2combat.hasPie = true;
+                pie2.SetActive(true);
+                OnDestroy();
+            }
         }
 
     }

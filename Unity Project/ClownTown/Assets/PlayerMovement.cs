@@ -8,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController2D controller;
     public float runSpeed = 40;
 
+    public HealthBar healthBar;
+
     float horizontalMove = 0f;
     bool jump = false;
     bool crouch = false;
@@ -30,6 +32,27 @@ public class PlayerMovement : MonoBehaviour
                 crouch = true;
             else if (Input.GetButtonUp("Crouch"))
                 crouch = false;
+        }
+    }
+
+    public void Modify(int index)
+    {
+        switch (index)
+        {
+            case 0:
+                runSpeed = 40;
+                healthBar.maxHealth = 100;
+                break;
+            case 1:
+                runSpeed = 15;
+                healthBar.maxHealth = 120;
+                break;
+            case 2:
+                healthBar.maxHealth = 80;
+                runSpeed = 65;
+                break;
+            default:
+                break;
         }
     }
 

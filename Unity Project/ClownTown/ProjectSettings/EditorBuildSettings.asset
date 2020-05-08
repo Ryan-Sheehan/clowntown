@@ -23,4 +23,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stage3.unity
     guid: 3f0f7d014c60c5041adf91a19aca2044
+  - enabled: 1
+    path: Assets/Scenes/Stage4.unity
+    guid: 4a9c6666ee16c114dbc9b1f51c4d7c72
+  - enabled: 1
+    path: Assets/Scenes/Stage5.unity
+    guid: 36db58e30ca04284dad55c6f31e20856
+  - enabled: 1
+    path: Assets/Scenes/Stage6.unity
+    guid: e6c75e2c50b056342aad0a4a9654fcf2
+  - enabled: 1
+    path: Assets/Scenes/Stage7.unity
+    guid: 00ae61ec399342246aa7857bf63dc323
   m_configObjects: {}

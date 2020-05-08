@@ -24,11 +24,6 @@ public class FeatureManager : MonoBehaviour
     {
         features = new List<Feature>();
         features.Add(new Feature("Heads", transform.Find("Face").GetComponent<SpriteRenderer>()));
-        features.Add(new Feature("Hats", transform.Find("Face").Find("Hat").GetComponent<SpriteRenderer>()));
-        features.Add(new Feature("Faces", transform.Find("Face").Find("Eyes").GetComponent<SpriteRenderer>()));
-        features.Add(new Feature("Ears", transform.Find("Face").Find("Ears").GetComponent<SpriteRenderer>()));
-        features.Add(new Feature("Outfits", transform.Find("Outfit").GetComponent<SpriteRenderer>()));
-        features.Add(new Feature("Shoes", transform.Find("Shoe").GetComponent<SpriteRenderer>()));
 
 
         for (int i = 0; i < features.Count; i++)
