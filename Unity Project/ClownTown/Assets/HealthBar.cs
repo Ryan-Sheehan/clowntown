@@ -14,12 +14,13 @@ public class HealthBar : MonoBehaviour
     public Collider2D box;
 
     public GameObject gameOverMenu;
-
     bool isDead = false;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        isDead = false;
         currentHealth = maxHealth;
         GameObject.Find("PauseCanvas").GetComponent<PauseMenu>().isGameOver = false;
     }
@@ -76,7 +77,6 @@ public class HealthBar : MonoBehaviour
             }
             else
             {
-
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
