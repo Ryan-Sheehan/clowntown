@@ -24,12 +24,17 @@ public class GameController : MonoBehaviour
     void Update()
     {
         timeLeft -= Time.deltaTime;
-        startText.text = (timeLeft).ToString("0");
-        if (timeLeft < 0)
+        
+        if (timeLeft == 0)
+            startText.text = "GO!";
+        else if (timeLeft < 0)
         {
             IsInputEnabled = true;
             startText.text = "";
 
+        } else
+        {
+            startText.text = (timeLeft).ToString("0");
         }
     }
 
