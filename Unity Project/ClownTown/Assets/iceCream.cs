@@ -10,25 +10,31 @@ public class iceCream : MonoBehaviour
     public Player2Combat player2combat;
     public PlayerCombat player1combat;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.tag == "Player" && Input.GetButtonDown("Pickup") && !player1combat.hasIceCream)
         {
-            if (player1combat.hasPie == false && player1combat.hasSword == false)
-            {
-                player1combat.hasIceCream = true;
-                iceCream1.SetActive(true);
-                OnDestroy();
-            }
+            player1combat.hasPie = false;
+            player1combat.hasSword = false;
+            if (player1combat.pie != null)
+                player1combat.pie.SetActive(false);
+            if (player1combat.sword != null)
+                player1combat.sword.SetActive(false);
+            player1combat.hasIceCream = true;
+            iceCream1.SetActive(true);
+            OnDestroy();
         }
-        else if (collision.tag == "Player2")
+        else if (collision.tag == "Player2" && Input.GetButtonDown("Pickup2") && !player2combat.hasIceCream)
         {
-            if (player2combat.hasPie == false && player2combat.hasSword == false)
-            {
-                player2combat.hasIceCream = true;
-                iceCream2.SetActive(true);
-                OnDestroy();
-            }
+            player2combat.hasPie = false;
+            player2combat.hasSword = false;
+            if (player2combat.pie != null)
+                player2combat.pie.SetActive(false);
+            if (player2combat.sword != null)
+                player2combat.sword.SetActive(false);
+            player2combat.hasIceCream = true;
+            iceCream2.SetActive(true);
+            OnDestroy();
         }
 
     }

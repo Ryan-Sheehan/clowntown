@@ -7,7 +7,9 @@ public class PlayerCombat : MonoBehaviour
 
     public Animator animator;
     public Transform attackPoint;
+    public Transform swordAttackPoint;
     public float attackRange = 0.1f;
+    public float swordAttackRange = 0.15f;
     public LayerMask enemyLayers;
     public int attackDamage = 10;
 
@@ -63,8 +65,15 @@ public class PlayerCombat : MonoBehaviour
 
     void Stab()
     {
-        sword2.attacking = true;
+        //Detect enemies in range
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(swordAttackPoint.position, swordAttackRange, enemyLayers);
+
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            enemy.GetComponent<HealthBar>().TakeDamage(40);
+        }
         animator.SetTrigger("Sword");
+
     }
 
     void Shoot()
@@ -94,5 +103,6 @@ public class PlayerCombat : MonoBehaviour
         if (attackPoint == null)
             return;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+        Gizmos.DrawWireSphere(swordAttackPoint.position, swordAttackRange);
     }
 }

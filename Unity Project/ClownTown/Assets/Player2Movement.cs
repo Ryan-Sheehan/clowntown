@@ -29,11 +29,6 @@ public class Player2Movement : MonoBehaviour
                 jump = true;
                 animator.SetBool("isJumping", true);
             }
-
-            if (Input.GetButtonDown("Crouch2"))
-                crouch = true;
-            else if (Input.GetButtonUp("Crouch2"))
-                crouch = false;
         }
     }
 

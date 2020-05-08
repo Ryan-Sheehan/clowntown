@@ -7,6 +7,8 @@ public class Sword2 : MonoBehaviour
     public int damage = 40;
     public bool attacking;
 
+    public HealthBar thisClown;
+
     private void Start()
     {
         attacking = false;
@@ -16,7 +18,7 @@ public class Sword2 : MonoBehaviour
     {
         HealthBar player = collision.GetComponent<HealthBar>();
 
-        if (player != null)
+        if (player != null && attacking && player != thisClown)
         {
             player.TakeDamage(damage);
             attacking = false;
