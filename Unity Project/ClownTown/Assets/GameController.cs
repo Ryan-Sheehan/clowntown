@@ -16,6 +16,7 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
+        IsInputEnabled = false;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
